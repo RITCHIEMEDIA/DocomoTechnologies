@@ -13,7 +13,6 @@ export default function Projects() {
       slug: 'federal-housing-estate-roads',
       location: 'Owerri, Imo State',
       duration: '8 months',
-      value: '₦50M+',
     },
     {
       id: '2',
@@ -24,7 +23,6 @@ export default function Projects() {
       slug: 'oil-field-site-development',
       location: 'Niger Delta',
       duration: '12 months',
-      value: '₦120M+',
     },
     {
       id: '3',
@@ -35,7 +33,6 @@ export default function Projects() {
       slug: 'commercial-building-complex',
       location: 'Owerri, Imo State',
       duration: '14 months',
-      value: '₦85M+',
     },
     {
       id: '4',
@@ -46,13 +43,11 @@ export default function Projects() {
       slug: 'public-infrastructure-development',
       location: 'Imo State',
       duration: '10 months',
-      value: '₦65M+',
     },
   ];
 
   const stats = [
     { number: '50+', label: 'Completed Projects', icon: '✅' },
-    { number: '₦500M+', label: 'Total Project Value', icon: '💰' },
     { number: '100%', label: 'Success Rate', icon: '🎯' },
     { number: '15+', label: 'Years Experience', icon: '⭐' },
   ];
@@ -91,7 +86,7 @@ export default function Projects() {
       {/* Stats Section */}
       <section className="py-16 bg-white">
         <div className="container">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-5xl mb-3">{stat.icon}</div>
@@ -152,15 +147,9 @@ export default function Projects() {
                       {project.description}
                     </p>
                     
-                    <div className="grid grid-cols-2 gap-4 mb-4">
-                      <div className="bg-[--neutral-100] p-3 rounded-lg">
-                        <div className="text-xs text-[--muted] mb-1">Duration</div>
-                        <div className="font-bold text-[--color-brand]">{project.duration}</div>
-                      </div>
-                      <div className="bg-[--neutral-100] p-3 rounded-lg">
-                        <div className="text-xs text-[--muted] mb-1">Value</div>
-                        <div className="font-bold text-[--color-brand]">{project.value}</div>
-                      </div>
+                    <div className="bg-[--neutral-100] p-3 rounded-lg mb-4">
+                      <div className="text-xs text-[--muted] mb-1">Duration</div>
+                      <div className="font-bold text-[--color-brand]">{project.duration}</div>
                     </div>
                     
                     <div className="flex items-center justify-between">
