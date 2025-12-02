@@ -2,31 +2,17 @@ export default function TeamGrid() {
   const teamMembers = [
     {
       id: '1',
-      name: 'Adebayo Johnson',
-      role: 'Founder & CEO',
-      bio: 'Technology visionary with 15+ years of experience in enterprise software development.',
+      name: 'Nnajiofor Alex O.',
+      role: 'Director',
+      bio: 'Experienced civil engineer with extensive expertise in construction management and project delivery.',
       image: '/assets/illustrations/team1.jpg',
     },
     {
       id: '2',
-      name: 'Chidinma Eze',
-      role: 'CTO',
-      bio: 'Full-stack developer and cloud architect specializing in scalable solutions.',
+      name: 'Nnajiofor Jerry O.',
+      role: 'Director',
+      bio: 'Specialist in electrical engineering and oil field services with proven track record in complex projects.',
       image: '/assets/illustrations/team2.jpg',
-    },
-    {
-      id: '3',
-      name: 'Emeka Okonkwo',
-      role: 'Lead Designer',
-      bio: 'UI/UX designer focused on creating intuitive and beautiful user experiences.',
-      image: '/assets/illustrations/team3.jpg',
-    },
-    {
-      id: '4',
-      name: 'Adunni Ade',
-      role: 'Head of Engineering',
-      bio: 'Expert in mobile development and DevOps practices.',
-      image: '/assets/illustrations/team4.jpg',
     },
   ];
 
@@ -36,11 +22,11 @@ export default function TeamGrid() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Leadership Team</h2>
           <p className="text-xl text-[--muted] max-w-2xl mx-auto">
-            Meet the talented individuals leading our technology initiatives.
+            Meet the experienced directors leading DOCOMO Technologies Limited.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {teamMembers.map((member) => (
             <div key={member.id} className="bg-white rounded-[--radius] overflow-hidden shadow-md">
               <div className="bg-gray-200 border-2 border-dashed w-full h-64" />
