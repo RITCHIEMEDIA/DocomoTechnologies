@@ -1,5 +1,35 @@
 # Allow all crawlers
+# Robots.txt for DOCOMO Technologies Limited
+# https://docomotechnologieslimited.com.ng
+
 User-agent: *
+Allow: /
+
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /_next/
+Disallow: /static/
+
+# Sitemap
+Sitemap: https://docomotechnologieslimited.com.ng/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Popular search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
 Allow: /
 
 # Sitemap

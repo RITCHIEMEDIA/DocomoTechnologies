@@ -17,8 +17,9 @@ export default function Home() {
   return (
     <>
       <Meta 
-        title="Home" 
-        description="Docomo Technologies Ltd - Reliable technology solutions for African businesses" 
+        title="Civil Engineering, Oil Field Services & Construction Company in Nigeria"
+        description="DOCOMO Technologies Limited - Leading civil engineering, electrical engineering, oil field services, and general contracting company in Owerri, Imo State, Nigeria. Expert road construction, building contractors, infrastructure development, and oil field site services across Nigeria."
+        keywords="civil engineering company Nigeria, electrical engineering Owerri, oil field services Niger Delta, construction company Imo State, road construction Nigeria, building contractor Owerri, infrastructure development Nigeria, general contractor Owerri, DOCOMO Technologies, engineering services Nigeria, construction services Owerri, Federal Housing Estate contractor, oil and gas services Nigeria"
       />
       <Hero {...heroData} />
       <ServicesGrid />
