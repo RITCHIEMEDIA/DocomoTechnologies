@@ -61,28 +61,28 @@ export async function getProjects() {
       id: '1',
       title: 'Federal Housing Estate Road Network',
       description: 'Complete road construction and drainage system for Federal Housing Estate Egbeda, Owerri.',
-      image: '/assets/illustrations/project1.jpg',
+      image: '/assets/illustrations/fed.jpg',
       slug: 'federal-housing-estate-roads'
     },
     {
       id: '2',
       title: 'Oil Field Site Development',
       description: 'Site preparation and infrastructure development for major oil field operations in the Niger Delta.',
-      image: '/assets/illustrations/project2.jpg',
+      image: '/assets/illustrations/oil.jpg',
       slug: 'oil-field-site-development'
     },
     {
       id: '3',
       title: 'Commercial Building Complex',
       description: 'Multi-story commercial complex with comprehensive electrical and structural engineering in Owerri.',
-      image: '/assets/illustrations/project3.jpg',
+      image: '/assets/illustrations/mall.jpg',
       slug: 'commercial-building-complex'
     },
     {
       id: '4',
       title: 'Public Infrastructure Development',
       description: 'Water supply system and public facility construction for local government development project in Imo State.',
-      image: '/assets/illustrations/project4.jpg',
+      image: '/assets/illustrations/water.jpg',
       slug: 'public-infrastructure-development'
     }
   ];

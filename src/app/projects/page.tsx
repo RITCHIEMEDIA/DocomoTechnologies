@@ -1,5 +1,6 @@
 import Meta from '@/components/seo/Meta';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Projects() {
   const projects = [
@@ -15,7 +16,7 @@ export default function Projects() {
       id: '2',
       title: 'Oil Field Site Development',
       description: 'Site preparation and infrastructure development for major oil field operations in the Niger Delta.',
-      image: '/assets/illustrations/project2.jpg',
+      image: '/assets/illustrations/oil.jpg',
       tags: ['Oil Field Services', 'Site Development'],
       slug: 'oil-field-site-development',
     },
@@ -23,7 +24,7 @@ export default function Projects() {
       id: '3',
       title: 'Commercial Building Complex',
       description: 'Multi-story commercial complex with comprehensive electrical and structural engineering in Owerri.',
-      image: '/assets/illustrations/project3.jpg',
+      image: '/assets/illustrations/mall.jpg',
       tags: ['Building Construction', 'Electrical Engineering'],
       slug: 'commercial-building-complex',
     },
@@ -31,7 +32,7 @@ export default function Projects() {
       id: '4',
       title: 'Public Infrastructure Development',
       description: 'Water supply system and public facility construction for local government development project.',
-      image: '/assets/illustrations/project4.jpg',
+      image: '/assets/illustrations/water.jpg',
       tags: ['Infrastructure', 'Public Works'],
       slug: 'public-infrastructure-development',
     },
@@ -55,7 +56,15 @@ export default function Projects() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {projects.map((project) => (
               <div key={project.id} className="bg-white rounded-[--radius] overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-                <div className="bg-gray-200 border-2 border-dashed w-full h-48" />
+                <div className="relative w-full h-64">
+                  <Image 
+                    src={project.image} 
+                    alt={project.title}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <p className="text-[--muted] mb-4">{project.description}</p>

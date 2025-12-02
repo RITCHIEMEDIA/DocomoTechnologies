@@ -1,6 +1,7 @@
 import Meta from '@/components/seo/Meta';
 import { getProjects } from '@/lib/api/cmsClient';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export async function generateStaticParams() {
   const projects = await getProjects();
@@ -148,7 +149,16 @@ export default async function ProjectDetail({ params }: { params: { id: string }
             <h1 className="text-4xl md:text-5xl font-bold mb-6">{project.title}</h1>
             <p className="text-xl text-[--muted] mb-12">{project.description}</p>
             
-            <div className="bg-gray-200 border-2 border-dashed w-full h-96 mb-12 rounded-[--radius]" />
+            <div className="relative w-full h-96 mb-12 rounded-[--radius] overflow-hidden">
+              <Image 
+                src={project.image} 
+                alt={project.title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 1200px"
+                priority
+              />
+            </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white p-6 rounded-[--radius] shadow-md">
