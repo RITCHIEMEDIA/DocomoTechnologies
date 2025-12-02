@@ -46,7 +46,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg">Email</h3>
-                    <p className="text-[--muted]">info@docomotech.ng</p>
+                    <p className="text-[--muted]">Service@docomotechnologieslimited.com.ng</p>
                   </div>
                 </div>
                 
