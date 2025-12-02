@@ -46,7 +46,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg">Email</h3>
-                    <p className="text-[--muted]">Service@docomotechnologieslimited.com.ng</p>
+                    <p className="text-[--muted]">service@docomotechnologieslimited.com.ng</p>
                   </div>
                 </div>
                 
@@ -58,11 +58,25 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg">Office Address</h3>
+                    <h3 className="font-bold text-lg">Office Address 1</h3>
                     <p className="text-[--muted]">No 6th Avenue 62nd Road House 1</p>
                     <p className="text-[--muted]">Federal Housing Estate Egbeda</p>
                     <p className="text-[--muted]">Owerri, Imo State, Nigeria</p>
                     <p className="text-[--muted] mt-2">RC: 620534</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="bg-[--color-brand] p-3 rounded-full mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg">Office Address 2</h3>
+                    <p className="text-[--muted]">92 Wetheral Road</p>
+                    <p className="text-[--muted]">Owerri, Imo State, Nigeria</p>
                   </div>
                 </div>
               </div>

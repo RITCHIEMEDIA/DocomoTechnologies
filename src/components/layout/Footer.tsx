@@ -42,6 +42,33 @@ export default function Footer() {
             <p className="text-neutral-200 mb-6 max-w-md">
               Oil field services, Civil/Electrical Engineering & general contractor. A subsidiary of Noble Environmental & Waste Management Ltd.
             </p>
+            
+            {/* Email */}
+            <div className="mb-4">
+              <h4 className="font-semibold text-white mb-2">Email</h4>
+              <a href="mailto:service@docomotechnologieslimited.com.ng" className="text-neutral-200 hover:text-accent transition-colors">
+                service@docomotechnologieslimited.com.ng
+              </a>
+            </div>
+            
+            {/* Addresses */}
+            <div className="mb-4">
+              <h4 className="font-semibold text-white mb-2">Office Address 1</h4>
+              <p className="text-neutral-200 text-sm">
+                No 6th Avenue 62nd Road House 1<br />
+                Federal Housing Estate Egbeda<br />
+                Owerri, Imo State, Nigeria
+              </p>
+            </div>
+            
+            <div className="mb-6">
+              <h4 className="font-semibold text-white mb-2">Office Address 2</h4>
+              <p className="text-neutral-200 text-sm">
+                92 Wetheral Road<br />
+                Owerri, Imo State, Nigeria
+              </p>
+            </div>
+            
             <div className="flex space-x-4">
               <a href="#" aria-label="Twitter" className="text-neutral-200 hover:text-accent">
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">

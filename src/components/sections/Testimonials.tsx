@@ -1,22 +1,24 @@
+import Image from 'next/image';
+
 export default function Testimonials() {
   const testimonials = [
     {
       name: 'Adeola Johnson',
       role: 'CTO, TechStart Nigeria',
       content: 'Docomo transformed our digital infrastructure completely. Their team delivered beyond our expectations.',
-      avatar: '/assets/illustrations/avatar1.png',
+      avatar: 'https://i.pravatar.cc/150?img=12',
     },
     {
       name: 'Emeka Okonkwo',
       role: 'Director, FinServe Ltd',
       content: 'The cybersecurity solution implemented by Docomo has given us peace of mind. Highly recommended!',
-      avatar: '/assets/illustrations/avatar2.png',
+      avatar: 'https://i.pravatar.cc/150?img=33',
     },
     {
       name: 'Chidinma Eze',
       role: 'CEO, AgriTech Solutions',
       content: 'Our mobile app development project was completed on time and within budget. Excellent communication throughout.',
-      avatar: '/assets/illustrations/avatar3.png',
+      avatar: 'https://i.pravatar.cc/150?img=45',
     },
   ];
 
@@ -33,7 +35,15 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-[--neutral-100] rounded-[--radius] p-6">
               <div className="flex items-center mb-4">
-                <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
+                <div className="relative w-16 h-16 rounded-full overflow-hidden">
+                  <Image 
+                    src={testimonial.avatar} 
+                    alt={testimonial.name}
+                    fill
+                    className="object-cover"
+                    sizes="64px"
+                  />
+                </div>
                 <div className="ml-4">
                   <h4 className="font-bold">{testimonial.name}</h4>
                   <p className="text-[--muted] text-sm">{testimonial.role}</p>
