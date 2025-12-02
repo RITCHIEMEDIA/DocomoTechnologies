@@ -1,14 +1,10 @@
 # Dependencies
 node_modules/
-docomo-site/node_modules/
 
 # Next.js
 .next/
-docomo-site/.next/
 out/
-docomo-site/out/
 dist/
-docomo-site/dist/
 build/
 
 # Environment variables
