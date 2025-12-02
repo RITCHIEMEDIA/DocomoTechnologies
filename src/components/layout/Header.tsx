@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import Button from '@/components/ui/Button';
 
@@ -36,8 +37,18 @@ export default function Header() {
       }`}
     >
       <div className="container flex justify-between items-center">
-        <Link href="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold text-[--color-brand]">Docomo Technologies</span>
+        <Link href="/" className="flex items-center space-x-3">
+          <Image 
+            src="/assets/logos/docomo-logo.svg" 
+            alt="Docomo Technologies Logo" 
+            width={50} 
+            height={50}
+            priority
+          />
+          <span className="text-2xl font-bold">
+            <span className="text-[--color-brand]">DOCOMO</span>
+            <span className="text-[--color-accent]"> TECHNOLOGIES</span>
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
