@@ -34,7 +34,7 @@ export default function Home() {
       title: 'Oil Field Services',
       description: 'Specialized services for oil and gas sector including site preparation and development.',
       icon: '⚙️',
-      image: 'https://images.unsplash.com/photo-1594977217222-fdc266acdd27?w=800&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1722553260514-8b97644c7dc6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG9pbCUyMGZpZWxkJTIwc2l0ZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww',
     },
     {
       title: 'Building Construction',
@@ -46,7 +46,7 @@ export default function Home() {
       title: 'Electrical Engineering',
       description: 'Professional electrical installations, power distribution, and comprehensive electrical systems.',
       icon: '⚡',
-      image: 'https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1635335874521-7987db781153?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
   ];
 
@@ -69,7 +69,7 @@ export default function Home() {
       title: 'Oil Field Site Development',
       location: 'Niger Delta',
       category: 'Oil Field Services',
-      image: 'https://images.unsplash.com/photo-1594977217222-fdc266acdd27?w=800&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1722553260514-8b97644c7dc6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG9pbCUyMGZpZWxkJTIwc2l0ZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww',
       slug: 'oil-field-site-development',
     },
   ];
