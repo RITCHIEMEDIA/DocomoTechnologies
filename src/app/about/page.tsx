@@ -4,8 +4,9 @@ export default function About() {
   return (
     <>
       <Meta 
-        title="About Us" 
-        description="Learn about Docomo Technologies Limited - RC-620534. A subsidiary of Noble Environmental & Waste Management Ltd, specializing in oil field services and civil/electrical engineering." 
+        title="About Us - Leading Civil Engineering & Construction Company in Nigeria"
+        description="DOCOMO Technologies Limited (RC-620534) - Leading civil engineering, electrical engineering, oil field services company in Owerri, Imo State. Subsidiary of Noble Environmental & Waste Management Ltd. Expert construction contractors serving Nigeria."
+        keywords="about DOCOMO Technologies, civil engineering company Nigeria, construction company Owerri, oil field services Niger Delta, electrical engineering Imo State, RC-620534, Noble Environmental, engineering firm Nigeria, building contractors Owerri, infrastructure development Nigeria"
       />
       <div className="pt-32 pb-20">
         <div className="container">
