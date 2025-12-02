@@ -206,7 +206,7 @@ export default function About() {
             </div>
             <div className="relative h-64 rounded-[--radius] overflow-hidden shadow-lg hover:shadow-xl transition-shadow group">
               <Image
-                src="https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=600&auto=format&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1467733238130-bb6846885316?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWxlY3RpY2FsJTIwd29ya3xlbnwwfHwwfHx8MA%3D%3D"
                 alt="Electrical engineering"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-300"
@@ -250,7 +250,7 @@ export default function About() {
               </p>
             </div>
             <TeamGrid />
-          </div>
+          </div> 
         </div>
 
         {/* Why Choose Us */}
