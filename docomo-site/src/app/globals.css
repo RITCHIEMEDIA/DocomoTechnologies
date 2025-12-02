@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-brand: #0B4DD8;
+  --color-brand-dark: #0837A8;
+  --color-accent: #00C2D9;
+  --bg: #F7FAFF;
+  --text: #0B1220;
+  --muted: #4B5563;
+  --success: #16A34A;
+  --danger: #EF4444;
+  --warning: #F59E0B;
+  --radius: 12px;
+  --container-max: 1200px;
+}
+
+body {
+  @apply bg-[--bg] text-[--text];
+}
+
+@layer components {
+  .container {
+    @apply max-w-[--container-max] mx-auto px-4;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center rounded-[--radius] px-4 py-2 font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[--color-brand] focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none;
+  }
+  
+  .btn-primary {
+    @apply btn bg-[--color-brand] text-white hover:bg-[--color-brand-dark];
+  }
+  
+  .btn-outline {
+    @apply btn border border-[--color-brand] text-[--color-brand] hover:bg-[--color-brand] hover:text-white;
+  }
+  
+  .btn-ghost {
+    @apply btn text-[--color-brand] hover:bg-[--color-brand] hover:text-white;
+  }
+}

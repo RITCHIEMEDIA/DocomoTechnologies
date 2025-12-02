@@ -1,0 +1,18 @@
+:root {
+  --color-brand: #0B4DD8;
+  --color-brand-dark: #0837A8;
+  --color-accent: #00C2D9;
+  --bg: #F7FAFF;
+  --text: #0B1220;
+  --muted: #4B5563;
+  --neutral-900: #0B1220;
+  --neutral-800: #1A2636;
+  --neutral-600: #4B5563;
+  --neutral-200: #E6EEF9;
+  --neutral-100: #F7FAFF;
+  --success: #16A34A;
+  --danger: #EF4444;
+  --warning: #F59E0B;
+  --radius: 12px;
+  --container-max: 1200px;
+}

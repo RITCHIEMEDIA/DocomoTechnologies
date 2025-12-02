@@ -1,0 +1,75 @@
+import Meta from '@/components/seo/Meta';
+
+export default function Projects() {
+  const projects = [
+    {
+      id: '1',
+      title: 'Federal Housing Estate Road Network',
+      description: 'Complete road construction and drainage system for Federal Housing Estate Egbeda, Owerri.',
+      image: '/assets/illustrations/project1.jpg',
+      tags: ['Civil Engineering', 'Road Construction'],
+    },
+    {
+      id: '2',
+      title: 'Oil Field Site Development',
+      description: 'Site preparation and infrastructure development for major oil field operations in the Niger Delta.',
+      image: '/assets/illustrations/project2.jpg',
+      tags: ['Oil Field Services', 'Site Development'],
+    },
+    {
+      id: '3',
+      title: 'Commercial Building Complex',
+      description: 'Multi-story commercial complex with comprehensive electrical and structural engineering in Owerri.',
+      image: '/assets/illustrations/project3.jpg',
+      tags: ['Building Construction', 'Electrical Engineering'],
+    },
+    {
+      id: '4',
+      title: 'Public Infrastructure Development',
+      description: 'Water supply system and public facility construction for local government development project.',
+      image: '/assets/illustrations/project4.jpg',
+      tags: ['Infrastructure', 'Public Works'],
+    },
+  ];
+
+  return (
+    <>
+      <Meta 
+        title="Our Projects" 
+        description="Explore our portfolio of successful civil engineering and construction projects completed by Docomo Technologies Limited." 
+      />
+      <div className="pt-32 pb-20">
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Projects</h1>
+            <p className="text-xl text-[--muted]">
+              Showcasing our completed civil engineering and construction projects across Nigeria.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {projects.map((project) => (
+              <div key={project.id} className="bg-white rounded-[--radius] overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                <div className="bg-gray-200 border-2 border-dashed w-full h-48" />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                  <p className="text-[--muted] mb-4">{project.description}</p>
+                  <div className="flex flex-wrap gap-2">
+                    {project.tags.map((tag, index) => (
+                      <span key={index} className="bg-[--neutral-100] text-[--muted] px-3 py-1 rounded-full text-sm">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <button className="mt-4 text-[--color-brand] hover:text-[--color-brand-dark] font-medium">
+                    View Case Study →
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

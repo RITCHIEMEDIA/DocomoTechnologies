@@ -1,0 +1,26 @@
+{
+  "name": "Docomo Technologies Ltd",
+  "short_name": "Docomo",
+  "description": "Reliable technology solutions for African businesses",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7FAFF",
+  "theme_color": "#0B4DD8",
+  "icons": [
+    {
+      "src": "/assets/logos/docomo-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/logos/docomo-mark-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logos/docomo-mark-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
