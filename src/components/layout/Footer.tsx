@@ -128,7 +128,7 @@ export default function Footer() {
           </div>
           <div className="text-center pt-4 border-t border-neutral-800">
             <p className="text-neutral-500 text-sm">
-              Powered by <a href="https://ritchietech.com" target="_blank" rel="noopener noreferrer" className="text-[--color-accent] hover:text-[--color-brand] font-semibold transition-colors">RITCHIETECH</a>
+              Powered by <a href="https://ritchietech.vercel.app" target="_blank" rel="noopener noreferrer" className="text-[--color-accent] hover:text-[--color-brand] font-semibold transition-colors">RITCHIETECH</a>
             </p>
           </div>
         </div>
