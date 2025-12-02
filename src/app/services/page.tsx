@@ -8,14 +8,14 @@ export default function Services() {
     {
       title: 'Civil Engineering',
       description: 'Comprehensive civil engineering solutions including road construction, bridges, and drainage systems.',
-      image: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&auto=format&fit=crop&q=80',
+      image: '',
       icon: '🛣️',
       features: ['Road Construction', 'Bridge Design', 'Drainage Systems', 'Site Development'],
     },
     {
       title: 'Electrical Engineering',
       description: 'Professional electrical installations, power distribution, and comprehensive electrical systems.',
-      image: 'https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&auto=format&fit=crop&q=80',
       icon: '⚡',
       features: ['Power Distribution', 'Electrical Installations', 'System Design', 'Maintenance'],
     },
