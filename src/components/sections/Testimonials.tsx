@@ -6,19 +6,19 @@ export default function Testimonials() {
       name: 'Adeola Johnson',
       role: 'CTO, TechStart Nigeria',
       content: 'Docomo transformed our digital infrastructure completely. Their team delivered beyond our expectations.',
-      avatar: 'https://randomuser.me/api/portraits/men/59.jpg',
+      avatar: 'https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBtYW58ZW58MHx8MHx8fDA%3D',
     },
     {
       name: 'Emeka Okonkwo',
       role: 'Director, FinServe Ltd',
       content: 'The cybersecurity solution implemented by Docomo has given us peace of mind. Highly recommended!',
-      avatar: 'https://randomuser.me/api/portraits/men/73.jpg',
+      avatar: 'https://images.unsplash.com/photo-1628149321186-7d4c5b1170f9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGJsYWNrJTIwbWFufGVufDB8fDB8fHww',
     },
     {
       name: 'Chidinma Eze',
       role: 'CEO, AgriTech Solutions',
       content: 'Our mobile app development project was completed on time and within budget. Excellent communication throughout.',
-      avatar: 'https://randomuser.me/api/portraits/women/65.jpg',
+      avatar: 'https://images.unsplash.com/photo-1507152832244-10d45c7eda57?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D',
     },
   ];
 
