@@ -184,7 +184,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="relative h-64 rounded-[--radius] overflow-hidden shadow-lg hover:shadow-xl transition-shadow group">
               <Image
-                src="https://images.unsplash.com/photo-1590496793907-3802b8d0e1ec?w=600&auto=format&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=600&auto=format&fit=crop&q=80"
                 alt="Road construction project"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-300"

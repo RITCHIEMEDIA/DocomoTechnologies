@@ -19,12 +19,12 @@ export default function TeamGrid() {
   return (
     <section className="py-20 bg-[--neutral-100]">
       <div className="container">
-        <div className="text-center mb-16">
+        {/* <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Leadership Team</h2>
           <p className="text-xl text-[--muted] max-w-2xl mx-auto">
             Meet the experienced directors leading DOCOMO Technologies Limited.
           </p>
-        </div>
+        </div> */}
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {teamMembers.map((member) => (
