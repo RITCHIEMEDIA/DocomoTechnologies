@@ -4,20 +4,20 @@ export default function Testimonials() {
   const testimonials = [
     {
       name: 'Adeola Johnson',
-      role: 'CTO, TechStart Nigeria',
-      content: 'Docomo transformed our digital infrastructure completely. Their team delivered beyond our expectations.',
+      role: 'Project Manager, Federal Housing Authority',
+      content: 'DOCOMO Technologies delivered exceptional road construction and drainage work at our Federal Housing Estate. Professional service, quality materials, and completed ahead of schedule.',
       avatar: 'https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBtYW58ZW58MHx8MHx8fDA%3D',
     },
     {
       name: 'Emeka Okonkwo',
-      role: 'Director, FinServe Ltd',
-      content: 'The cybersecurity solution implemented by Docomo has given us peace of mind. Highly recommended!',
+      role: 'Operations Director, Niger Delta Oil Services',
+      content: 'Their oil field site development expertise is outstanding. DOCOMO handled our complex terrain challenges with innovative solutions. Zero safety incidents throughout the project.',
       avatar: 'https://images.unsplash.com/photo-1628149321186-7d4c5b1170f9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGJsYWNrJTIwbWFufGVufDB8fDB8fHww',
     },
     {
       name: 'Chidinma Eze',
-      role: 'CEO, AgriTech Solutions',
-      content: 'Our mobile app development project was completed on time and within budget. Excellent communication throughout.',
+      role: 'CEO, Owerri Commercial Ventures',
+      content: 'Our 4-story commercial building was completed on time with excellent electrical and structural engineering. DOCOMO\'s attention to detail and quality craftsmanship exceeded expectations.',
       avatar: 'https://images.unsplash.com/photo-1507152832244-10d45c7eda57?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D',
     },
   ];
