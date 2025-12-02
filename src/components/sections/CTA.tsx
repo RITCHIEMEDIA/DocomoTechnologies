@@ -16,7 +16,7 @@ export default function CTA({ title, description, buttonText, buttonHref }: CTAP
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
             {description}
           </p>
-          <Button href={buttonHref} variant="primary" size="lg" className="bg-white text-[#4A7BA7] hover:bg-gray-100">
+          <Button href={buttonHref} variant="primary" size="lg" className="bg-grey text-[#4A7BA7] hover:bg-gray-800">
             {buttonText}
           </Button>
         </div>

@@ -1,4 +1,5 @@
 import Meta from '@/components/seo/Meta';
+import Link from 'next/link';
 
 export default function Projects() {
   const projects = [
@@ -6,8 +7,9 @@ export default function Projects() {
       id: '1',
       title: 'Federal Housing Estate Road Network',
       description: 'Complete road construction and drainage system for Federal Housing Estate Egbeda, Owerri.',
-      image: '/assets/illustrations/project1.jpg',
+      image: '/assets/illustrations/fed.jpg',
       tags: ['Civil Engineering', 'Road Construction'],
+      slug: 'federal-housing-estate-roads',
     },
     {
       id: '2',
@@ -15,6 +17,7 @@ export default function Projects() {
       description: 'Site preparation and infrastructure development for major oil field operations in the Niger Delta.',
       image: '/assets/illustrations/project2.jpg',
       tags: ['Oil Field Services', 'Site Development'],
+      slug: 'oil-field-site-development',
     },
     {
       id: '3',
@@ -22,6 +25,7 @@ export default function Projects() {
       description: 'Multi-story commercial complex with comprehensive electrical and structural engineering in Owerri.',
       image: '/assets/illustrations/project3.jpg',
       tags: ['Building Construction', 'Electrical Engineering'],
+      slug: 'commercial-building-complex',
     },
     {
       id: '4',
@@ -29,6 +33,7 @@ export default function Projects() {
       description: 'Water supply system and public facility construction for local government development project.',
       image: '/assets/illustrations/project4.jpg',
       tags: ['Infrastructure', 'Public Works'],
+      slug: 'public-infrastructure-development',
     },
   ];
 
@@ -61,9 +66,9 @@ export default function Projects() {
                       </span>
                     ))}
                   </div>
-                  <button className="mt-4 text-[--color-brand] hover:text-[--color-brand-dark] font-medium">
+                  <Link href={`/projects/${project.slug}`} className="mt-4 inline-block text-[--color-brand] hover:text-[--color-brand-dark] font-medium">
                     View Case Study →
-                  </button>
+                  </Link>
                 </div>
               </div>
             ))}
