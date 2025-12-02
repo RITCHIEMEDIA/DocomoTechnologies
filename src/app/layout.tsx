@@ -12,11 +12,11 @@ export const metadata: Metadata = {
     template: '%s | DOCOMO Technologies Limited - Civil Engineering & Construction Nigeria',
     default: 'DOCOMO Technologies Limited - Civil Engineering, Oil Field Services & Construction Company in Nigeria',
   },
-  description: 'Leading civil engineering, electrical engineering, oil field services, and general contracting company in Owerri, Imo State, Nigeria. Expert road construction, building contractors, infrastructure development across Nigeria. RC: 620534',
+  description: 'Leading civil engineering, electrical engineering, oil field services, and general contracting company in Owerri, Imo State, Nigeria. Expert road construction, building contractors, infrastructure development across Nigeria. RC: 620534. Powered by RITCHIETECH',
   keywords: ['civil engineering Nigeria', 'construction company Owerri', 'oil field services Niger Delta', 'electrical engineering Imo State', 'road construction Nigeria', 'building contractor Owerri', 'infrastructure development Nigeria', 'DOCOMO Technologies', 'general contractor Nigeria', 'engineering services Owerri'],
   authors: [{ name: 'DOCOMO Technologies Limited' }],
   creator: 'DOCOMO Technologies Limited',
-  publisher: 'DOCOMO Technologies Limited',
+  publisher: 'DOCOMO Technologies Limited - Powered by RITCHIETECH',
   formatDetection: {
     email: false,
     address: false,
@@ -85,7 +85,7 @@ export default function RootLayout({
     alternateName: 'Docomo Technologies',
     url: 'https://docomotechnologieslimited.com.ng',
     logo: 'https://docomotechnologieslimited.com.ng/assets/logos/docomo-logo.svg',
-    description: 'Leading civil engineering, electrical engineering, oil field services, and general contracting company in Nigeria',
+    description: 'Leading civil engineering, electrical engineering, oil field services, and general contracting company in Nigeria. Powered by RITCHIETECH',
     address: [
       {
         '@type': 'PostalAddress',

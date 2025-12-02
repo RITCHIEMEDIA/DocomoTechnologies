@@ -112,17 +112,24 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-neutral-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-neutral-600">
-            &copy; {new Date().getFullYear()} Docomo Technologies Limited. All rights reserved. RC: 620534
-          </p>
-          <div className="mt-4 md:mt-0 flex space-x-6">
-            <Link href="/legal/privacy" className="text-neutral-600 hover:text-accent">
-              Privacy Policy
-            </Link>
-            <Link href="/legal/terms" className="text-neutral-600 hover:text-accent">
-              Terms of Service
-            </Link>
+        <div className="border-t border-neutral-800 mt-12 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center mb-4">
+            <p className="text-neutral-600">
+              &copy; {new Date().getFullYear()} Docomo Technologies Limited. All rights reserved. RC: 620534
+            </p>
+            <div className="mt-4 md:mt-0 flex space-x-6">
+              <Link href="/legal/privacy" className="text-neutral-600 hover:text-accent">
+                Privacy Policy
+              </Link>
+              <Link href="/legal/terms" className="text-neutral-600 hover:text-accent">
+                Terms of Service
+              </Link>
+            </div>
+          </div>
+          <div className="text-center pt-4 border-t border-neutral-800">
+            <p className="text-neutral-500 text-sm">
+              Powered by <a href="https://ritchietech.com" target="_blank" rel="noopener noreferrer" className="text-[--color-accent] hover:text-[--color-brand] font-semibold transition-colors">RITCHIETECH</a>
+            </p>
           </div>
         </div>
       </div>

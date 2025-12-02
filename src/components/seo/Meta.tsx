@@ -12,7 +12,7 @@ interface MetaProps {
 
 export default function Meta({
   title,
-  description = 'DOCOMO Technologies Limited - Leading civil engineering, electrical engineering, oil field services, and general contracting company in Nigeria. Expert construction services in Owerri, Imo State.',
+  description = 'DOCOMO Technologies Limited - Leading civil engineering, electrical engineering, oil field services, and general contracting company in Nigeria. Expert construction services in Owerri, Imo State. Powered by RITCHIETECH',
   image = '/assets/og/og-default.png',
   canonical,
   ogType = 'website',
@@ -32,6 +32,8 @@ export default function Meta({
       <meta name="keywords" content={keywords} />
       <meta name="robots" content={robots} />
       <meta name="author" content="DOCOMO Technologies Limited" />
+      <meta name="publisher" content="DOCOMO Technologies Limited - Powered by RITCHIETECH" />
+      <meta name="generator" content="RITCHIETECH" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="language" content="English" />
