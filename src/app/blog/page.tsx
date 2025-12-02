@@ -12,7 +12,7 @@ export default function Blog() {
       author: 'Nnajiofor Alex O.',
       tags: ['Civil Engineering', 'Road Construction', 'Infrastructure'],
       slug: 'best-practices-road-construction-nigeria',
-      image: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1597668094804-6236e6a8d248?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       readTime: '5 min read',
     },
     {
@@ -23,7 +23,7 @@ export default function Blog() {
       author: 'Nnajiofor Jerry O.',
       tags: ['Oil Field Services', 'Safety', 'Best Practices'],
       slug: 'safety-standards-oil-field-operations',
-      image: 'https://images.unsplash.com/photo-1594977217222-fdc266acdd27?w=800&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1694039446022-2d227e8b104b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFNhZmV0eSUyMFN0YW5kYXJkcyUyMGluJTIwT2lsJTIwRmllbGQlMjBPcGVyYXRpb25zfGVufDB8fDB8fHww',
       readTime: '6 min read',
     },
     {

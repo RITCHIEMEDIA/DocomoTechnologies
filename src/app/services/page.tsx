@@ -8,7 +8,7 @@ export default function Services() {
     {
       title: 'Civil Engineering',
       description: 'Comprehensive civil engineering solutions including road construction, bridges, and drainage systems.',
-      image: '',
+      image: 'https://images.unsplash.com/photo-1503708928676-1cb796a0891e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2l2aWwlMjBlbmdpbmVlcmluZ3xlbnwwfHwwfHx8MA%3D%3D',
       icon: '🛣️',
       features: ['Road Construction', 'Bridge Design', 'Drainage Systems', 'Site Development'],
     },
@@ -22,7 +22,7 @@ export default function Services() {
     {
       title: 'Oil Field Services',
       description: 'Specialized services for oil and gas sector including site preparation and development.',
-      image: 'https://images.unsplash.com/photo-1594977217222-fdc266acdd27?w=800&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1722553260514-8b97644c7dc6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG9pbCUyMGZpZWxkJTIwc2l0ZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww',
       icon: '⚙️',
       features: ['Site Preparation', 'Infrastructure Development', 'Equipment Support', 'Operations Support'],
     },
